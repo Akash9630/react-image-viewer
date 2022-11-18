@@ -1,0 +1,21 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+div > img {
+  border: 10px solid black;
+  margin: 20px;
+}
+
+@media (width <=690px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  div > img {
+    border: 1px solid black;
+    margin: 5px;
+  }
+}
